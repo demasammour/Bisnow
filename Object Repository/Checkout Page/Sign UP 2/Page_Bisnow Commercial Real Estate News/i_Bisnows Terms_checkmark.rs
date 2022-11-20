@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Bisnows Terms_checkmark</name>
+   <tag></tag>
+   <elementGuidId>3d728166-509e-435b-aa95-5cc44ce537e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='login-popup-form']/div/div/div[4]/div[7]/div/label/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.checkmark</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkmark</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;login-popup-form&quot;)/div[@class=&quot;table mb-0&quot;]/div[@class=&quot;row form-wrap pt-0&quot;]/div[@class=&quot;loginPopup__registerFull&quot;]/div[@class=&quot;col-lg-12 col-sm-12 col-xs-12 input_agree_to_terms&quot;]/div[@class=&quot;form-group mt-3&quot;]/label[@class=&quot;checkbox-label&quot;]/i[@class=&quot;checkmark&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='login-popup-form']/div/div/div[4]/div[7]/div/label/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/i</value>
+   </webElementXpaths>
+</WebElementEntity>

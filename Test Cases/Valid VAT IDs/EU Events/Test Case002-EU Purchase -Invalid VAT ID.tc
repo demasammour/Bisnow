@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Case002-EU Purchase -Invalid VAT ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3c6e090-2405-47cf-a938-ad5d8a6b1359</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>55afedbf-cbf8-467b-933e-377fdb97ea9c</id>
+      <masked>false</masked>
+      <name>VATID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e809ecd-f317-4ed8-a639-13adac454b2b</id>
+      <masked>false</masked>
+      <name>InvalidVATID</name>
+   </variable>
+</TestCaseEntity>

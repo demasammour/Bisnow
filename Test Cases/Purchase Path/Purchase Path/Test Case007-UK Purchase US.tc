@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select any event in UK and perform the purchase using the US cards</description>
+   <name>Test Case007-UK Purchase US</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bbc70d3-22dc-44a5-8531-87a5e8b9ce74</testCaseGuid>
+</TestCaseEntity>

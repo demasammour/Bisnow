@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>EU Default without Questionnaire 
+User select any event in EU and perform the purchase using the EU cards</description>
+   <name>Test Case008-EU Default without Questionnaire Cardend1091</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7002b996-b524-40f9-b716-f7e567095d54</testCaseGuid>
+</TestCaseEntity>

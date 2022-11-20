@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin can grant a complimentary ticket to a user. User should receive confirmation email and be subscribed to morning brief for the event market.(Mostly next day)</description>
+   <name>Test Case013-Comp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee419ac5-f5c8-4c44-a93a-2440511da1aa</testCaseGuid>
+</TestCaseEntity>

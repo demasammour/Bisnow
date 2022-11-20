@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Case001-US Default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65fa413a-42f7-4e68-8821-d3c7cee98d84</testCaseGuid>
+   <variable>
+      <defaultValue>'dynamicemail'</defaultValue>
+      <description></description>
+      <id>40545bf4-ed5c-410a-8e46-bcef4ef9693d</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

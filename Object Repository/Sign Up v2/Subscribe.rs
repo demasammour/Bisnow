@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Subscribe</name>
+   <tag></tag>
+   <elementGuidId>9525e505-9819-4fb4-b9ea-c76fdac1ff3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='wrapper']/div[@id='login-modal']/div[1]/div[1]/div[4]/div[1]/div[1]/form[1]/div[1]/div[1]/div[4]/div[7]/div[1]/label[1]/i[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Case002-UK Purchase -Invalid VAT ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b8233ed-8ce1-46fd-a189-a35b231b683a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d55310e-c0e1-431d-ad77-74aae6a48fe7</id>
+      <masked>false</masked>
+      <name>VATID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f88368eb-a5be-4654-ae5e-21d3074fd42f</id>
+      <masked>false</masked>
+      <name>InvalidVATID</name>
+   </variable>
+</TestCaseEntity>

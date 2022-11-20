@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Case001-EU Purchase -Valid VAT ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9e61f9b-5d0c-46f0-b7c1-669023cc016c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5539123d-6310-4a12-a90e-e8c76bd34ddf</id>
+      <masked>false</masked>
+      <name>VATID</name>
+   </variable>
+</TestCaseEntity>

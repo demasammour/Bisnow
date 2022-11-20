@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select any event in UK and perform the purchase using the US cards</description>
+   <name>Test Case001-UK Purchase -Valid VAT ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d95c5bc-af4e-4a1d-b008-46bf9c15818d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>791ddf61-beac-4375-8e84-7d84e68d37c1</id>
+      <masked>false</masked>
+      <name>VATID</name>
+   </variable>
+</TestCaseEntity>

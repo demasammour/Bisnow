@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select any event in us and perform the purchase using the us card and perform the purchase without an attendance list.
+Purchase without Attendee List added
+In Person Event Ticket</description>
+   <name>Test Case011-US Default without Attendee List added</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3c6e575-aab8-4dc5-8697-223f7d1c966c</testCaseGuid>
+</TestCaseEntity>

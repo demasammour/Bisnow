@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Case 001-Pay for Invoice US with PO number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4be4b38b-eadb-4188-86f4-be7333b33758</testCaseGuid>
+</TestCaseEntity>

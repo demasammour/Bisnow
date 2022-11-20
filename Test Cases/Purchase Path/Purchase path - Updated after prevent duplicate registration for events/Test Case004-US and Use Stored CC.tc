@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select any event in us and perform the purchase using a saved us card.</description>
+   <name>Test Case004-US and Use Stored CC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d4a035d-ab38-4834-9232-ad4c23dd586b</testCaseGuid>
+</TestCaseEntity>

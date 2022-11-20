@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select any event in us and perform the purchase using the us card and submit a questionnaire after the purchase.</description>
+   <name>Test Case002-US and Questionnaire</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5ed3ad2-4db2-4479-8a97-8d6cdc713825</testCaseGuid>
+</TestCaseEntity>
