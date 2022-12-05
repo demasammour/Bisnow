@@ -79,6 +79,10 @@ WebUI.sendKeys(findTestObject('Checkout Page/VAT TAX ID'), '123456')
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Name Tag Information'), 3)
 
+dynamicemail = CustomKeywords.'defaultpackage.custome.randomString'('letters', 9)
+
+WebUI.setText(findTestObject('Checkout Page/Email of attendee'), dynamicemail + '@ccn.com')
+
 WebUI.click(findTestObject('Checkout Page/Company Arrow'))
 
 WebUI.setText(findTestObject('Checkout Page/Company field Ticket 1'), 'Test', FailureHandling.CONTINUE_ON_FAILURE)
@@ -99,9 +103,11 @@ WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/First Name'), 'Test')
 
 WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/Last Name'), 'Ticket two')
 
-WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/Email Ticket 2'), 'sammouraspire@gmail.com')
-
 WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/Cell Phone Ticket2'), '0787616754')
+
+dynamicemail2 = CustomKeywords.'defaultpackage.custome.randomString'('letters', 9)
+
+WebUI.setText(findTestObject('Checkout Page/Ticket 2/Email Ticket 2'), dynamicemail2 + '@ccn.com')
 
 WebUI.click(findTestObject('Checkout Page/Ticket 2/Company Arrow Ticekt2'))
 
@@ -151,7 +157,7 @@ WebUI.verifyElementPresent(findTestObject('Checkout Page/Elements Order Summary 
 
 String companyfieldSummarypage = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Company Ticket1'))
 
-String EmailSummarypage = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Email Ticket1'))
+String Email1 = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Email Ticket1'))
 
 WebUI.verifyEqual(companyfieldcheckoutpage, companyfieldSummarypage)
 
@@ -159,7 +165,7 @@ String title = WebUI.getText(findTestObject('Checkout Page/Elements Order Summar
 
 WebUI.verifyEqual('Chairman', title)
 
-WebUI.verifyEqual(GlobalVariable.Email, EmailSummarypage)
+WebUI.verifyEqual(dynamicemail + '@ccn.com', Email1)
 
 WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Name Ticket1'))
 
@@ -181,7 +187,7 @@ WebUI.verifyEqual('Bisnow', Company2)
 
 String Email2 = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Email Ticket2'))
 
-WebUI.verifyEqual('sammouraspire@gmail.com', Email2)
+WebUI.verifyEqual(dynamicemail2 + '@ccn.com', Email2)
 
 WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Order id'))
 

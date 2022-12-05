@@ -101,7 +101,7 @@ WebUI.sendKeys(findTestObject('Checkout Page/Industry Drop Down list'), 'Energy'
 
 WebUI.sendKeys(findTestObject('Checkout Page/Job Title'), 'Chairman')
 
-String dynamicemail = WebUI.getText(findTestObject('Checkout Page/Email value in Ticket 1/Email Ticket 1 in US cases'))
+WebUI.getText(findTestObject('Checkout Page/Email value in Ticket 1/Email Ticket 1 in US cases'))
 
 WebUI.check(findTestObject('Checkout Page/Acknowledge Checkbox'))
 

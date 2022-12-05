@@ -57,6 +57,10 @@ WebUI.click(findTestObject('Checkout Page/First radio button to select the saved
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Name Tag Information'), 3)
 
+dynamicemail = CustomKeywords.'defaultpackage.custome.randomString'('letters', 9)
+
+WebUI.setText(findTestObject('Checkout Page/Email of attendee'), dynamicemail + '@ccn.com')
+
 WebUI.click(findTestObject('Checkout Page/Company Arrow'))
 
 WebUI.setText(findTestObject('Checkout Page/Company field Ticket 1'), 'Test', FailureHandling.CONTINUE_ON_FAILURE)
@@ -103,7 +107,7 @@ String title = WebUI.getText(findTestObject('Checkout Page/Elements Order Summar
 
 WebUI.verifyEqual('Chairman', title)
 
-WebUI.verifyEqual(GlobalVariable.Email, EmailSummarypage)
+WebUI.verifyEqual(dynamicemail + '@ccn.com', EmailSummarypage)
 
 WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Order id'))
 

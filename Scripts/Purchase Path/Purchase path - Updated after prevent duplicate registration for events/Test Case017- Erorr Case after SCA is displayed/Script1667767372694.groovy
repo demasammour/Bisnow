@@ -77,6 +77,10 @@ WebUI.sendKeys(findTestObject('Checkout Page/VAT TAX ID'), '123456')
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Name Tag Information'), 3)
 
+dynamicemail = CustomKeywords.'defaultpackage.custome.randomString'('letters', 9)
+
+WebUI.setText(findTestObject('Checkout Page/Email of attendee'), dynamicemail + '@ccn.com')
+
 WebUI.click(findTestObject('Checkout Page/Company Arrow'))
 
 WebUI.setText(findTestObject('Checkout Page/Company field Ticket 1'), 'Test', FailureHandling.CONTINUE_ON_FAILURE)
