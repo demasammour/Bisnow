@@ -6,16 +6,16 @@
    <elementGuidId>b914e082-0afb-4336-b23e-f2b505971a8a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[1]/section/div/div[5]/div[2]/div[2]/div[1]/span[3]/a
-</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#register-button > a</value>
+         <key>XPATH</key>
+         <value>//span[@class=&quot;btn orange show-cart-v2 registerDesktopBtn&quot;]//a[text()=&quot;Get Tickets and Info&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
