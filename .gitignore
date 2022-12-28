@@ -32,3 +32,8 @@ settings/external/*
 /.svn/
 Reports/
 settings*
+#.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
