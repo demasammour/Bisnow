@@ -19,3 +19,16 @@ build
 /.settings/
 /.classpath
 .svn/
+Reports/*
+.project
+settings/*
+settings/internal/*
+settings/external/*
+/bin/
+/Libs/
+/.settings/
+.classpath
+.cache
+/.svn/
+Reports/
+settings*
