@@ -306,3 +306,5 @@ settings*
 BisnowGithubdesktop.prj
 Test Suites/new.groovy
 Test Suites/new.ts
+settings/internal/com.kms.katalon.composer.testcase.properties
+settings/internal/com.kms.katalon.composer.testcase.properties
