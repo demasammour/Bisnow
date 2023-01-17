@@ -113,6 +113,8 @@ WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
 
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
+
 WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
 
 String FinalTotal = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Total in order summary page'))

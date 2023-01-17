@@ -69,7 +69,7 @@ WebUI.switchToFrame(findTestObject('Checkout Page/Expiration Date/Page_/ifram_ex
 
 WebUI.focus(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'))
 
-WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'), '2023', false)
+WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'), '2025', false)
 
 WebUI.switchToDefaultContent()
 

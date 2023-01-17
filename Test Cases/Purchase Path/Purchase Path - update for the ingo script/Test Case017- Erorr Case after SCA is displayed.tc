@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>For UK and EU purchases 
+Adjust the data to invalid after the SCA screen is displayed</description>
+   <name>Test Case017- Erorr Case after SCA is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4c9969b-5688-4be3-be1a-2166f5799d68</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Case001-US Default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdfe1900-2fc5-4e69-9291-b659bdb39f2f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96c669b3-989c-4f8c-871d-31f48c7a7f2a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'dynamicemail'</defaultValue>
+      <description></description>
+      <id>96c669b3-989c-4f8c-871d-31f48c7a7f2a</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

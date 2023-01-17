@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select any event in us and perform the purchase using the UK cards
+= 
+US Purchase EU
+User select any event in us and perform the purchase using the EU cards
+Becasue of the cards of UK =EU cards</description>
+   <name>Test Case005-US Purchases UK cardend1000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>642139ab-cf1a-4de3-a143-41d360cfb5c6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select any event in UK and perform the purchase using the UK cards</description>
+   <name>Test Case006-UK Default without Questionnaire Cardend1091</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9fc1a54f-9ee4-4932-bbe8-d46f6b2a27a2</testCaseGuid>
+</TestCaseEntity>

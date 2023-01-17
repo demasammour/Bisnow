@@ -53,7 +53,11 @@ String Total = WebUI.getText(findTestObject('Checkout Page/Order Total in checko
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Your Information section'), 3)
 
-WebUI.setText(findTestObject('Checkout Page/Card Number/Credit Card Number field'), '4111111111111111')
+WebUI.click(findTestObject('Checkout Page/Delete Card Button'))
+
+WebUI.scrollToElement(findTestObject('Checkout Page/Your Information section'), 3)
+
+WebUI.setText(findTestObject('Checkout Page/Card Number/Credit Card Number field'), '4111 1111 1111 1111')
 
 WebUI.switchToDefaultContent()
 
@@ -61,7 +65,7 @@ WebUI.switchToFrame(findTestObject('Checkout Page/Expiration Date/Page_/ifram_ex
 
 WebUI.focus(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'))
 
-WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'), 'January', false)
+WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'), 'December', false)
 
 WebUI.switchToDefaultContent()
 
@@ -73,7 +77,7 @@ WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/di
 
 WebUI.switchToDefaultContent()
 
-WebUI.sendKeys(findTestObject('Object Repository/Checkout Page/CVV field/Page_/input_CVV_cvv'), '111')
+WebUI.sendKeys(findTestObject('Object Repository/Checkout Page/CVV field/Page_/input_CVV_cvv'), '123')
 
 WebUI.sendKeys(findTestObject('Checkout Page/Postal Code/input_Postal Code_postal-code'), '12345')
 
@@ -113,6 +117,8 @@ WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
 
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
+
 WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
 
 String FinalTotal = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Total in order summary page'))
@@ -136,4 +142,6 @@ WebUI.verifyEqual('Chairman', title)
 WebUI.verifyEqual(dynamicemail + '@ccn.com', EmailSummarypage)
 
 WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Order id'))
+
+WebUI.delay(6)
 

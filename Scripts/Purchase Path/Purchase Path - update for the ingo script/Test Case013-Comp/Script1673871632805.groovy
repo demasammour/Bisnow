@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Login Page/Password'), 'C/Qzn8ORT1OwpiIml
 
 WebUI.click(findTestObject('Login Page/submit Login'))
 
-WebUI.scrollToElement(findTestObject('Event Page/All event'), 3)
+WebUI.scrollToElement(findTestObject('Event Page/All event'), 0)
 
 WebUI.click(findTestObject('Event Page/InPerson US event'))
 
@@ -44,6 +44,14 @@ WebUI.click(findTestObject('Event Page/Get Tickets and Info'))
 WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quanitiy for event'), '1', false)
 
 WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quantity for attendace list'), '1', false)
+
+WebUI.click(findTestObject('Checkout Page/Discount Code link'))
+
+WebUI.verifyElementVisible(findTestObject('Checkout Page/Discount - Credit code screen'))
+
+WebUI.setText(findTestObject('Checkout Page/Discount Code field'), 'LIZVIP')
+
+WebUI.click(findTestObject('Checkout Page/Apply Code button'))
 
 String Price2 = WebUI.getText(findTestObject('Checkout Page/Get Price 2/Event price in the Checkout page'))
 
@@ -113,13 +121,15 @@ WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
 
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
+
 WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
 
 String FinalTotal = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Total in order summary page'))
 
 WebUI.verifyEqual(Total, FinalTotal)
 
-WebUI.scrollToElement(findTestObject('Checkout Page/Elements Order Summary Page/Scroll to elements Order summary'), 3)
+WebUI.scrollToElement(findTestObject('Checkout Page/Elements Order Summary Page/Scroll to elements Order summary'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Checkout Page/Elements Order Summary Page/Name Ticket1'), 3)
 

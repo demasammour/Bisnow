@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Login Page/Password'), 'C/Qzn8ORT1OwpiIml
 
 WebUI.click(findTestObject('Login Page/submit Login'))
 
-WebUI.scrollToElement(findTestObject('Event Page/All event'), 3)
+WebUI.scrollToElement(findTestObject('Event Page/All event'), 0)
 
 WebUI.click(findTestObject('Event Page/InPerson US event'))
 
@@ -79,8 +79,6 @@ WebUI.sendKeys(findTestObject('Checkout Page/Postal Code/input_Postal Code_posta
 
 WebUI.sendKeys(findTestObject('Checkout Page/Country'), 'United States')
 
-WebUI.click(findTestObject('Checkout Page/CheckBox'))
-
 WebUI.scrollToElement(findTestObject('Checkout Page/Name Tag Information'), 3)
 
 dynamicemail = CustomKeywords.'defaultpackage.custome.randomString'('letters', 9)
@@ -113,13 +111,15 @@ WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
 
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
+
 WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
 
 String FinalTotal = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Total in order summary page'))
 
 WebUI.verifyEqual(Total, FinalTotal)
 
-WebUI.scrollToElement(findTestObject('Checkout Page/Elements Order Summary Page/Scroll to elements Order summary'), 3)
+WebUI.scrollToElement(findTestObject('Checkout Page/Elements Order Summary Page/Scroll to elements Order summary'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Checkout Page/Elements Order Summary Page/Name Ticket1'), 3)
 

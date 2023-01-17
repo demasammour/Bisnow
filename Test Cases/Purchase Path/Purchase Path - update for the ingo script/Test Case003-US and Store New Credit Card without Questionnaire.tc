@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User select any event in us and perform the purchase with clicking on the save card checkbox.</description>
+   <name>Test Case003-US and Store New Credit Card without Questionnaire</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a346be8-7636-4b5c-9c22-562b18ce8ca4</testCaseGuid>
+</TestCaseEntity>

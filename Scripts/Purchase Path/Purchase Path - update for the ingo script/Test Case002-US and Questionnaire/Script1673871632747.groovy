@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Login Page/Password'), 'C/Qzn8ORT1OwpiIml
 
 WebUI.click(findTestObject('Login Page/submit Login'))
 
-WebUI.scrollToElement(findTestObject('Event Page/All event'), 3)
+WebUI.scrollToElement(findTestObject('Event Page/All event'), 0)
 
 WebUI.click(findTestObject('Event Page/InPerson US event'))
 
@@ -101,7 +101,7 @@ WebUI.sendKeys(findTestObject('Checkout Page/Industry Drop Down list'), 'Energy'
 
 WebUI.sendKeys(findTestObject('Checkout Page/Job Title'), 'Chairman')
 
-String Emailcheckoutpage = WebUI.getText(findTestObject('Checkout Page/Email value in Ticket 1/Email Ticket 1 in US cases'))
+WebUI.getText(findTestObject('Checkout Page/Email value in Ticket 1/Email Ticket 1 in US cases'))
 
 WebUI.check(findTestObject('Checkout Page/Acknowledge Checkbox'))
 
@@ -111,9 +111,17 @@ WebUI.click(findTestObject('Checkout Page/Complete Checkout button'))
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
+WebUI.sendKeys(findTestObject('Checkout Page/Checkout Thank You Page/Question1 value'), 'How you will let me now about any update for the event ?')
 
-WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
+WebUI.sendKeys(findTestObject('Checkout Page/Checkout Thank You Page/Question 2 value'), 'Can i refund my purchase?')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
+
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Submit Questions Button'))
+
+WebUI.delay(3)
 
 String FinalTotal = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Total in order summary page'))
 

@@ -33,21 +33,15 @@ WebUI.click(findTestObject('Login Page/submit Login'))
 
 WebUI.scrollToElement(findTestObject('Event Page/All event'), 3)
 
-WebUI.click(findTestObject('Event Page/InPerson US event'))
+WebUI.click(findTestObject('Event Page/InPerson EU event'))
 
 WebUI.delay(3)
 
-String Price1 = WebUI.getText(findTestObject('Event Page/Get Price 1/Event price first page - Get ticket Info page'))
-
 WebUI.click(findTestObject('Event Page/Get Tickets and Info'))
 
-WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quanitiy for event'), '1', false)
+WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quanitiy for event'), '2', false)
 
 WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quantity for attendace list'), '1', false)
-
-String Price2 = WebUI.getText(findTestObject('Checkout Page/Get Price 2/Event price in the Checkout page'))
-
-WebUI.verifyEqual(Price1, Price2)
 
 String Total = WebUI.getText(findTestObject('Checkout Page/Order Total in checkout page'))
 
@@ -61,7 +55,7 @@ WebUI.switchToFrame(findTestObject('Checkout Page/Expiration Date/Page_/ifram_ex
 
 WebUI.focus(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'))
 
-WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'), 'January', false)
+WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'), 'December', false)
 
 WebUI.switchToDefaultContent()
 
@@ -73,13 +67,15 @@ WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/di
 
 WebUI.switchToDefaultContent()
 
-WebUI.sendKeys(findTestObject('Object Repository/Checkout Page/CVV field/Page_/input_CVV_cvv'), '111')
+WebUI.sendKeys(findTestObject('Object Repository/Checkout Page/CVV field/Page_/input_CVV_cvv'), '123')
 
 WebUI.sendKeys(findTestObject('Checkout Page/Postal Code/input_Postal Code_postal-code'), '12345')
 
 WebUI.sendKeys(findTestObject('Checkout Page/Country'), 'United States')
 
 WebUI.click(findTestObject('Checkout Page/CheckBox'))
+
+WebUI.sendKeys(findTestObject('Checkout Page/VAT TAX ID'), '123456')
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Name Tag Information'), 3)
 
@@ -101,17 +97,55 @@ WebUI.sendKeys(findTestObject('Checkout Page/Industry Drop Down list'), 'Energy'
 
 WebUI.sendKeys(findTestObject('Checkout Page/Job Title'), 'Chairman')
 
-String Emailcheckoutpage = WebUI.getText(findTestObject('Checkout Page/Email value in Ticket 1/Email Ticket 1 in US cases'))
+String Emailcheckoutpage = WebUI.getText(findTestObject('Checkout Page/Email value in Ticket 1/Email Ticket 1 in UK cases'))
+
+WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/First Name'), 'Test')
+
+WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/Last Name'), 'Ticket two')
+
+WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/Cell Phone Ticket2'), '0787616754')
+
+dynamicemail2 = CustomKeywords.'defaultpackage.custome.randomString'('letters', 9)
+
+WebUI.setText(findTestObject('Checkout Page/Ticket 2/Email Ticket 2'), dynamicemail2 + '@ccn.com')
+
+WebUI.click(findTestObject('Checkout Page/Ticket 2/Company Arrow Ticekt2'))
+
+WebUI.setText(findTestObject('Checkout Page/Ticket 2/Company field Ticket2'), 'Bisnow')
+
+WebUI.delay(6)
+
+WebUI.click(findTestObject('Checkout Page/Ticket 2/Selected option in company Ticket2'))
+
+WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/Industry Ticket2'), 'Security Company')
+
+WebUI.sendKeys(findTestObject('Checkout Page/Ticket 2/Job Title Ticket2'), 'Chief Technology Officer')
 
 WebUI.check(findTestObject('Checkout Page/Acknowledge Checkbox'))
 
 WebUI.check(findTestObject('Checkout Page/Agree Button'))
 
+WebUI.scrollToElement(findTestObject('Checkout Page/Complete Checkout button'), 3)
+
 WebUI.click(findTestObject('Checkout Page/Complete Checkout button'))
 
 WebUI.delay(5)
 
+WebUI.verifyElementVisible(findTestObject('Checkout Page/SCA Challenge/SCA Pop-up'))
+
+WebUI.switchToFrame(findTestObject('Checkout Page/SCA Challenge/Submit button/iframe_headhead  bodydivdivbody'), 3)
+
+WebUI.sendKeys(findTestObject('Checkout Page/SCA Challenge/Code/ChallengeDataEntry Code'), '1234')
+
+WebUI.click(findTestObject('Checkout Page/SCA Challenge/Submit button/Submit button'))
+
+WebUI.switchToDefaultContent(FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(3)
+
 WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
+
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
 
 WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
 
@@ -125,7 +159,7 @@ WebUI.verifyElementPresent(findTestObject('Checkout Page/Elements Order Summary 
 
 String companyfieldSummarypage = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Company Ticket1'))
 
-String EmailSummarypage = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Email Ticket1'))
+String Email1 = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Email Ticket1'))
 
 WebUI.verifyEqual(companyfieldcheckoutpage, companyfieldSummarypage)
 
@@ -133,7 +167,31 @@ String title = WebUI.getText(findTestObject('Checkout Page/Elements Order Summar
 
 WebUI.verifyEqual('Chairman', title)
 
-WebUI.verifyEqual(dynamicemail + '@ccn.com', EmailSummarypage)
+WebUI.verifyEqual(dynamicemail + '@ccn.com', Email1)
+
+WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Name Ticket1'))
+
+WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Name Ticket2'))
+
+WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Email Ticket2'))
+
+WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Title Ticket2'))
+
+String Title2 = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Title Ticket2'))
+
+WebUI.verifyEqual('Chief Technology Officer', Title2)
+
+WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Company Ticket2'))
+
+String Company2 = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Company Ticket2'))
+
+WebUI.verifyEqual('Bisnow', Company2)
+
+String Email2 = WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Email Ticket2'))
+
+WebUI.verifyEqual(dynamicemail2 + '@ccn.com', Email2)
 
 WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Order id'))
+
+WebUI.getText(findTestObject('Checkout Page/Elements Order Summary Page/Quantity'))
 

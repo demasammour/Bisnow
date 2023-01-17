@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Event Page/Get Tickets and Info'))
 
 WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quanitiy for event'), '1', false)
 
-WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quantity for attendace list'), '1', false)
+WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quantity for attendace list'), '0', false)
 
 String Price2 = WebUI.getText(findTestObject('Checkout Page/Get Price 2/Event price in the Checkout page'))
 
@@ -112,6 +112,8 @@ WebUI.click(findTestObject('Checkout Page/Complete Checkout button'))
 WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
+
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
 
 WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
 

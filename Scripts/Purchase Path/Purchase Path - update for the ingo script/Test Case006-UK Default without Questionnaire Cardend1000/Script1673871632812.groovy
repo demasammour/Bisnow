@@ -31,9 +31,11 @@ WebUI.setEncryptedText(findTestObject('Login Page/Password'), 'C/Qzn8ORT1OwpiIml
 
 WebUI.click(findTestObject('Login Page/submit Login'))
 
-WebUI.scrollToElement(findTestObject('Event Page/All event'), 3)
+WebUI.scrollToElement(findTestObject('Event Page/All event'), 0)
 
-WebUI.click(findTestObject('Event Page/InPerson US event'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Event Page/InPerson UK event'))
 
 WebUI.delay(3)
 
@@ -53,7 +55,7 @@ String Total = WebUI.getText(findTestObject('Checkout Page/Order Total in checko
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Your Information section'), 3)
 
-WebUI.setText(findTestObject('Checkout Page/Card Number/Credit Card Number field'), '4111111111111111')
+WebUI.setText(findTestObject('Checkout Page/Card Number/Credit Card Number field'), '4000000000001000')
 
 WebUI.switchToDefaultContent()
 
@@ -61,7 +63,7 @@ WebUI.switchToFrame(findTestObject('Checkout Page/Expiration Date/Page_/ifram_ex
 
 WebUI.focus(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'))
 
-WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'), 'January', false)
+WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'), 'December', false)
 
 WebUI.switchToDefaultContent()
 
@@ -73,13 +75,15 @@ WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/di
 
 WebUI.switchToDefaultContent()
 
-WebUI.sendKeys(findTestObject('Object Repository/Checkout Page/CVV field/Page_/input_CVV_cvv'), '111')
+WebUI.sendKeys(findTestObject('Object Repository/Checkout Page/CVV field/Page_/input_CVV_cvv'), '123')
 
 WebUI.sendKeys(findTestObject('Checkout Page/Postal Code/input_Postal Code_postal-code'), '12345')
 
 WebUI.sendKeys(findTestObject('Checkout Page/Country'), 'United States')
 
 WebUI.click(findTestObject('Checkout Page/CheckBox'))
+
+WebUI.sendKeys(findTestObject('Checkout Page/VAT TAX ID'), '123456')
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Name Tag Information'), 3)
 
@@ -101,7 +105,7 @@ WebUI.sendKeys(findTestObject('Checkout Page/Industry Drop Down list'), 'Energy'
 
 WebUI.sendKeys(findTestObject('Checkout Page/Job Title'), 'Chairman')
 
-String Emailcheckoutpage = WebUI.getText(findTestObject('Checkout Page/Email value in Ticket 1/Email Ticket 1 in US cases'))
+String Emailcheckoutpage = WebUI.getText(findTestObject('Checkout Page/Email value in Ticket 1/Email Ticket 1 in UK cases'))
 
 WebUI.check(findTestObject('Checkout Page/Acknowledge Checkbox'))
 
@@ -112,6 +116,8 @@ WebUI.click(findTestObject('Checkout Page/Complete Checkout button'))
 WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
+
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
 
 WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
 

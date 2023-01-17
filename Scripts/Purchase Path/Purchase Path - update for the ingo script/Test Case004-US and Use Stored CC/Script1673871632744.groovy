@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Login Page/Password'), 'C/Qzn8ORT1OwpiIml
 
 WebUI.click(findTestObject('Login Page/submit Login'))
 
-WebUI.scrollToElement(findTestObject('Event Page/All event'), 3)
+WebUI.scrollToElement(findTestObject('Event Page/All event'), 0)
 
 WebUI.click(findTestObject('Event Page/InPerson US event'))
 
@@ -53,33 +53,7 @@ String Total = WebUI.getText(findTestObject('Checkout Page/Order Total in checko
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Your Information section'), 3)
 
-WebUI.setText(findTestObject('Checkout Page/Card Number/Credit Card Number field'), '4111111111111111')
-
-WebUI.switchToDefaultContent()
-
-WebUI.switchToFrame(findTestObject('Checkout Page/Expiration Date/Page_/ifram_expirationMonth'), 3)
-
-WebUI.focus(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'))
-
-WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationMonth'), 'January', false)
-
-WebUI.switchToDefaultContent()
-
-WebUI.switchToFrame(findTestObject('Checkout Page/Expiration Date/Page_/ifram_expirationYear'), 3)
-
-WebUI.focus(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'))
-
-WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'), '2030', false)
-
-WebUI.switchToDefaultContent()
-
-WebUI.sendKeys(findTestObject('Object Repository/Checkout Page/CVV field/Page_/input_CVV_cvv'), '111')
-
-WebUI.sendKeys(findTestObject('Checkout Page/Postal Code/input_Postal Code_postal-code'), '12345')
-
-WebUI.sendKeys(findTestObject('Checkout Page/Country'), 'United States')
-
-WebUI.click(findTestObject('Checkout Page/CheckBox'))
+WebUI.click(findTestObject('Checkout Page/First radio button to select the saved card'))
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Name Tag Information'), 3)
 
@@ -112,6 +86,8 @@ WebUI.click(findTestObject('Checkout Page/Complete Checkout button'))
 WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Checkout Page/Checkout Thank You Page/label any other topics you would'), 3)
+
+WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/close icon - Ingo popup'))
 
 WebUI.click(findTestObject('Checkout Page/Checkout Thank You Page/Skip, go to my receipt'))
 
