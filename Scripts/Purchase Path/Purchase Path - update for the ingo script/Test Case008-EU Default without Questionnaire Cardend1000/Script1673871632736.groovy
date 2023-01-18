@@ -41,7 +41,7 @@ WebUI.delay(3)
 
 String Price1 = WebUI.getText(findTestObject('Event Page/Get Price 1/Event price first page - Get ticket Info page'))
 
-WebUI.click(findTestObject('Checkout Page/Get Tickets and Info'))
+WebUI.click(findTestObject('Checkout Page/Get Tickets and Info button on the first page'))
 
 WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quanitiy for event'), '1', false)
 

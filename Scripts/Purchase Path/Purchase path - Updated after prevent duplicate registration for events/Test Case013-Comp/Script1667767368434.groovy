@@ -39,7 +39,7 @@ WebUI.delay(3)
 
 String Price1 = WebUI.getText(findTestObject('Event Page/Get Price 1/Event price first page - Get ticket Info page'))
 
-WebUI.click(findTestObject('Event Page/Get Tickets and Info'))
+WebUI.click(findTestObject('Checkout Page/Get Tickets and Info button on the first page'))
 
 WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quanitiy for event'), '1', false)
 
@@ -77,7 +77,7 @@ WebUI.switchToFrame(findTestObject('Checkout Page/Expiration Date/Page_/ifram_ex
 
 WebUI.focus(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'))
 
-WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'), '2023', false)
+WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'), '2030', false)
 
 WebUI.switchToDefaultContent()
 

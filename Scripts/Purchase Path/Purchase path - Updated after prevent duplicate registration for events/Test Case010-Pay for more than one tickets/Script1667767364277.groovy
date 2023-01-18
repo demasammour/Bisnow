@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Event Page/InPerson EU event'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Event Page/Get Tickets and Info'))
+WebUI.click(findTestObject('Checkout Page/Get Tickets and Info button on the first page'))
 
 WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quanitiy for event'), '2', false)
 
@@ -63,7 +63,7 @@ WebUI.switchToFrame(findTestObject('Checkout Page/Expiration Date/Page_/ifram_ex
 
 WebUI.focus(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'))
 
-WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'), '2022', false)
+WebUI.selectOptionByLabel(findTestObject('Checkout Page/Expiration Date/Page_/div__expirationYear'), '2030', false)
 
 WebUI.switchToDefaultContent()
 

@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Event Page/Select US Event specific one'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Checkout Page/Get Tickets and Info'))
+WebUI.click(findTestObject('Checkout Page/Get Tickets and Info button on the first page'))
 
 WebUI.selectOptionByValue(findTestObject('Checkout Page/Select item Quanitiy for event'), '1', true)
 

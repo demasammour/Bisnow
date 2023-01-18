@@ -12,153 +12,184 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f56c6969-a342-41fe-892e-f1df9a3e8573</testSuiteGuid>
    <testCaseLink>
-      <guid>805a25a4-4d43-4b77-ac5e-d12ef5d81dbb</guid>
+      <guid>0ec0f193-f7c1-4818-9fb0-cbaece8ccddb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case001-US Default</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case001-US Default</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40545bf4-ed5c-410a-8e46-bcef4ef9693d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>aec5a1b6-bf2c-48fb-b7b9-366777d78658</guid>
+      <guid>7a21dd1d-ffd9-46fe-9062-75a373247fd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case002-US and Questionnaire</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case002-US and Questionnaire</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>838de572-5958-48f1-93df-63b582f7dff0</guid>
+      <guid>d9823f2f-11f6-496b-938d-26553b75325a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case003-US and Store New Credit Card without Questionnaire</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case003-US and Store New Credit Card without Questionnaire</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9f505463-9790-4228-98c5-0f124f337293</guid>
+      <guid>fb4697e4-5f42-4e0f-8d06-2160f92684dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case004-US and Use Stored CC</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case004-US and Use Stored CC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c1140498-f194-4b68-a1fd-e53b51e4bc72</guid>
+      <guid>6d2e57f9-17b6-4e4c-a212-8c4058cd40f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case004-USdelete the saved Card</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case004-USdelete the saved Card</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8c3d6093-3f47-4990-9c3d-563275649990</guid>
+      <guid>a057d070-392b-432a-be2c-c55a77885ba5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case005-US Purchases UK cardend1000</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case005-US Purchases UK cardend1000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1c0964e1-0835-4757-a062-361e8ab0322a</guid>
+      <guid>eb1bc82e-357c-46ac-a0a4-cdc7dea8fb60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case005-US Purchases UKcardend1091</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case005-US Purchases UKcardend1091</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b316ab2-8a79-43d4-adf0-0af971f15d05</guid>
+      <guid>543784c2-981f-47c3-9948-8b2effb542b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case005-US Purchases UKcardend1109</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case005-US Purchases UKcardend1109</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9cf47e73-d768-4f9d-a3e9-a03cd5cd7433</guid>
+      <guid>36c1d0f4-39de-41fa-b2f2-3531f8b37390</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case006-UK Default without Questionnaire Cardend1000</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case006-UK Default without Questionnaire Cardend1000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d564db8e-d01d-4048-84dd-e8db9055dc0e</guid>
+      <guid>7adc2496-7853-40a8-a718-9de01734e9ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case006-UK Default without Questionnaire Cardend1091</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case006-UK Default without Questionnaire Cardend1091</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>428174ac-c941-4b80-a36d-def0ca7f1a54</guid>
+      <guid>232b30c5-95ac-4f1f-a3c5-64ac7b6925f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case006-UK Default without Questionnaire Cardend1109</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case006-UK Default without Questionnaire Cardend1109</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bf53e5cf-d1a6-48a6-8510-809aed32ef21</guid>
+      <guid>e919537e-5a88-4713-a7c8-19a956649606</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case007-UK Purchase US</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case007-UK Purchase US</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5f0d34a6-9672-49e4-b0a4-ddd228354058</guid>
+      <guid>652b4fbc-b0eb-41b7-88c6-aab0dfa3f644</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case008-EU Default without Questionnaire Cardend1000</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case008-EU Default without Questionnaire Cardend1000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dc230ebf-458b-4aee-b789-e38d017f5b48</guid>
+      <guid>f0571f95-a5d9-491b-a177-07a22142808a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case008-EU Default without Questionnaire Cardend1091</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case008-EU Default without Questionnaire Cardend1091</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e801e052-9e24-47f2-990c-3ab9406acb70</guid>
+      <guid>00a8bd8c-4d00-4f9a-b700-cadcb4cbbfe2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case008-EU Default without Questionnaire Cardend1109</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case008-EU Default without Questionnaire Cardend1109</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c21e9561-b9ee-4a2e-92d8-967f4e03ac66</guid>
+      <guid>dce46134-adc9-469a-a821-fac0d2a56b22</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case009-EU Purchase US</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case009-EU Purchase US</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fcb754ac-fbba-4e94-a1d3-ffc9cf341317</guid>
+      <guid>5ee7f284-fdeb-41ad-86a6-70d71c2c08b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case010-Pay for more than one tickets</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case010-Pay for more than one tickets</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e869068-6e88-4151-a39e-9e6341534248</guid>
+      <guid>ed4eec97-be3e-4d01-9d19-3cdd6e88af65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case011-EU Default without Attendee List added</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case011-EU Default without Attendee List added</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>390ef216-9ad1-4796-9855-5e688a57ec36</guid>
+      <guid>3dda3b5d-e936-4269-aeeb-57e82990ff34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case011-UK Default without Attendee List added</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case011-UK Default without Attendee List added</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2a2497ee-c791-4764-b655-42a6c0b28d57</guid>
+      <guid>9964f0a1-190d-4cd0-8e65-ba53e81926d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case011-US Default without Attendee List added</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case011-US Default without Attendee List added</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63d10db5-4768-4c7c-9077-276cde6757f2</guid>
+      <guid>eaaef2c0-1038-4cec-a846-763f6aebb4f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case013-Comp</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case013-Comp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2e933d2-2481-41c7-aae6-ad68169f98dc</guid>
+      <guid>1bfa1668-e1c4-409e-8602-5a3887cf046d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case014-Timer on the purchase</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case014-Timer on the purchase</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f9294848-2621-4e10-be78-ffec1fcb2b37</guid>
+      <guid>faa4502b-4a52-4d52-bbea-859ef3f0631d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case015- Purchase with VAT</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case015- Purchase with VAT</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8f3d868b-e836-4cbf-897e-46f28648420f</guid>
+      <guid>fb7d625f-4cdb-4942-8f04-983c3c05e36c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case016-Erorr Mesaage</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case016-Erorr Mesaage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7a3fd88-7b12-44e9-a4a8-e7caca7c8f9c</guid>
+      <guid>f588f86e-d7a3-42b5-950b-54a65abcaf21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Purchase Path/Purchase Path/Test Case017- Erorr Case after SCA is displayed</testCaseId>
+      <testCaseId>Test Cases/Purchase Path/Purchase path - Updated after prevent duplicate registration for events/Test Case017- Erorr Case after SCA is displayed</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
