@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Checkout Page/Discount Code link'))
 
 WebUI.verifyElementVisible(findTestObject('Checkout Page/Discount - Credit code screen'))
 
-WebUI.setText(findTestObject('Checkout Page/Discount Code field'), 'LIZVIP')
+WebUI.setText(findTestObject('Checkout Page/Discount Code field'), 'SDWYSS20')
 
 WebUI.click(findTestObject('Checkout Page/Apply Code button'))
 
